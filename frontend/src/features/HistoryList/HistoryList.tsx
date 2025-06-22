@@ -3,7 +3,7 @@ import type { TableData } from "../../../store/TableStore";
 import Container from "../../components/Container/Container";
 import HistoryItem from "../../components/HistoryItem/HistoryItem";
 
-interface IList {
+export interface IList {
   tableId: number;
   currentDate: string;
   fileName: string;

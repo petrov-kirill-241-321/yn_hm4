@@ -1,3 +1,4 @@
+import { getDateFromDay } from "../../services/getDate";
 import styles from "./TableCreate.module.css";
 interface Props {
   average_spend_galactic: number;
@@ -37,11 +38,11 @@ export default function TableCreate({
         <p className={styles.p}>количество обработанных записей</p>
       </li>
       <li className={styles.item}>
-        <h2 className={styles.title}>{big_spent_at}</h2>
+        <h2 className={styles.title}>{getDateFromDay(big_spent_at)}</h2>
         <p className={styles.p}>день года с максимальными расходами </p>
       </li>
       <li className={styles.item}>
-        <h2 className={styles.title}>{less_spent_at}</h2>
+        <h2 className={styles.title}>{getDateFromDay(less_spent_at)}</h2>
         <p className={styles.p}>день года с минимальными расходами </p>
       </li>
       <li className={styles.item}>

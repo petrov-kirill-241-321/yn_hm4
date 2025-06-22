@@ -12,12 +12,18 @@ export default function GeneratorCSV() {
 
   async function handleClick() {
     try {
+      function getRandomSize(): number {
+        const values = [0.01, 0.03, 0.05, 0.07, 0.1];
+        const randomIndex = Math.floor(Math.random() * values.length);
+        return values[randomIndex];
+      }
+      const size = getRandomSize();
       setIsLoading(true);
       const blob = await fetchReports.getReport(
         (status) => {
           setIsSuccess(status);
         },
-        0.01,
+        size,
         "on"
       );
       if (!blob) return;

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import styles from "./ModalWindow.module.css";
 import { useEffect } from "react";
 import imageCancel from "../../assets/Vector.svg";
+import { getDateFromDay } from "../../services/getDate";
 const modalRoot = document.getElementById("modal-root");
 interface Props extends TableData {
   isOpen: boolean;
@@ -47,7 +48,7 @@ export default function ModalWindow({
               <p className={styles.p}>количество обработанных записей</p>
             </li>
             <li className={styles.item}>
-              <h3 className={styles.title}>{less_spent_at}</h3>
+              <h3 className={styles.title}>{getDateFromDay(less_spent_at)}</h3>
               <p className={styles.p}>день года с минимальными расходами </p>
             </li>
             <li className={styles.item}>
@@ -59,7 +60,7 @@ export default function ModalWindow({
               <p className={styles.p}>цивилизация с минимальными расходами</p>
             </li>
             <li className={styles.item}>
-              <h3 className={styles.title}>{big_spent_at}</h3>
+              <h3 className={styles.title}>{getDateFromDay(big_spent_at)}</h3>
               <p className={styles.p}>день года с максимальными расходами </p>
             </li>
 
