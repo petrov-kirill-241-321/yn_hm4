@@ -23,7 +23,7 @@ export default function HistoryPage() {
       <HistoryList />
       {newList.length === 0 && <div className={styles.text}>История пуста</div>}
       <div className={styles.buttons}>
-        <Link to={"/"}>
+        <Link to={"/generator"}>
           <Button text="Сгенерировать больше" className={styles.more} />
         </Link>
         {newList.length > 0 && (
