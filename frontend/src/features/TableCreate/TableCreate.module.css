@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* две колонки */
+  column-gap: 40px;
+  row-gap: 10px;
+  margin-top: 40px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #201b10;
+  border-radius: 24px;
+  padding: 10px;
+  background-color: #fff;
+}
+.title {
+  margin: 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 40px;
+  color: #201b10;
+}
+.p {
+  margin: 0px;
+}

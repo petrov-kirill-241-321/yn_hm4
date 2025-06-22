@@ -1,0 +1,33 @@
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.delete {
+  background-color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #fff;
+  background-color: #201b10;
+}
+.more {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+  margin-bottom: 40px;
+}

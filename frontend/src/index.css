@@ -1,0 +1,21 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "YS Geo", sans-serif;
+}
+a.active::after {
+  width: 100% !important; /* Принудительно показываем */
+  background-color: #000000; /* Можно задать другой цвет */
+  transition: none; /* Убираем анимацию */
+}
+body {
+  background: #fce2ff;
+}
+a {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+input {
+  cursor: pointer;
+}

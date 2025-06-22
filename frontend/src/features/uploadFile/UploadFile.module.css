@@ -1,0 +1,85 @@
+.uploadblock {
+  display: flex;
+  flex-direction: column;
+  background: #eacdff;
+  border-radius: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.label {
+  border-radius: 10px;
+  padding: 15px 27px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  background-color: #fff;
+  color: #201b10;
+}
+input {
+  display: none;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.remove {
+  background-color: black;
+  border-radius: 10px;
+  padding: 8px;
+  aspect-ratio: 1;
+  width: 70px;
+}
+.upload {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgc {
+  background-color: #cb81ff;
+}
+.uploadSave {
+  background-color: inherit;
+  border: solid 1px black;
+}
+.dragDrop {
+  background-color: #d4fae6;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+}
+.success {
+  background-color: #d4fae6;
+}
+.notValid {
+  background-color: #ff5f00;
+  color: white;
+}
+.errorText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #ff5f00;
+  padding: 0;
+}

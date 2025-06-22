@@ -1,0 +1,17 @@
+.button {
+  border-radius: 25px;
+  padding: 15px 27px;
+  background: #2ae881;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+  border: none;
+}
+
+.button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}

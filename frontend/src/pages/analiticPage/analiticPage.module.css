@@ -1,0 +1,12 @@
+.hailight {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 110%;
+  text-align: center;
+  color: #cb81ff;
+}

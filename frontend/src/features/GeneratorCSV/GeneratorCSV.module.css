@@ -1,0 +1,65 @@
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+}
+.buttonDwn {
+  border-radius: 25px;
+  padding: 15px 27px;
+  background-color: #fce300;
+}
+.done {
+  border-radius: 10px;
+  padding: 15px 27px;
+  background-color: #d4fae6;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #201b10;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  border-radius: 10px;
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+  background-color: #201b10;
+}
+.error {
+  background-color: #ff5f00;
+  border-radius: 10px;
+  padding: 15px 27px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #fff;
+}
+.errorText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 110%;
+  text-align: center;
+  color: #ff5f00;
+  padding: 0;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+}
